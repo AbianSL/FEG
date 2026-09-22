@@ -2,12 +2,20 @@
 # More specifically, it specifies an Exponential model for use in fitting a 
 # 256x256-pixel SDSS r-band cutout image of the galaxy IC 3478.
 
-X0   135.0    125,135
-Y0   129.0    125,135
-FUNCTION Exponential
-PA    18.0    0,180
+X0   190.0    175,225
+Y0   150.0    140,170
+
+function exponential
+pa    18.0    0,180
 ell    0.2    0,1
-I_0    100    0,500
+i_0    100    0,500
 h      25     0,100
+
 # Para ajustar otro sersic hago otra función.
 # Se puede poner dos centros diferentes para cada función. pero se pone por fuera como una variable global
+
+function sersic 
+pa    18.0    0,180
+ell    0.2    0,1
+i_0    100    0,500
+h      25     0,100
