@@ -13,10 +13,3 @@ h         25.0     0.1,100
 
 # Para ajustar otro sersic hago otra función.
 # Se puede poner dos centros diferentes para cada función. pero se pone por fuera como una variable global
-
-FUNCTION Sersic
-PA      19.0449
-ell     0.221656
-n        2.3108
-I_e     22.1351
-r_e     56.2217

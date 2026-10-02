@@ -10,8 +10,10 @@ def main():
         ZCAL = -23.7458
         GAIN = 4.87
         READ_NOISE = 4.6225
+        FWGN_I = 0,8316
+        BETA_I = 3.8
         
-        subprocess.run(["./run.sh", f"--sky={SKY}", f"--gain={GAIN}", f"readnoise={READ_NOISE}", "-s", "-m"])
+        subprocess.run(["./run.sh", f"--sky={SKY}", f"--gain={GAIN}", f"readnoise={READ_NOISE}", "-s", "-m", "-p"])
 
 if __name__ == "__main__":
     main()

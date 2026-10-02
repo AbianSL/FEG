@@ -6,11 +6,11 @@ NCOLS  51
 NROWS  51
 
 # Circular Moffat
-X0    26.0
-Y0    26.0
+X0    190.0
+Y0    150.0
 FUNCTION Moffat
 PA		0.0
 ell		0.0
 I_0		1.0
-fwhm	2.59
-beta	3.1
+fwhm  0.8316	
+beta	3.8
