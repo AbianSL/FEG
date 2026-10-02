@@ -24,6 +24,7 @@ EOF
 }
 
 DEFAULT_IMAGE="source/NGC0237_i.fits"
+DEFAULT_MASK="source/NGC0237_mask2D_new.fits"
 DEFAULT_CONFIG="configs/config_exponential_ic3478_256.dat"
 DEFAULT_PSF="configs/config_makeimage_moffat_psf.dat"
 DEFAULT_MODEL="model.fits"
@@ -54,6 +55,9 @@ for arg in "$@"; do
             ;;
         --psd | -p)
             EXPANDED_ARGS+=(--psf "$DEFAULT_PSF")
+            ;;
+        --mask | -m)
+            EXPANDED_ARGS+=(--mask "$DEFAULT_MASK")
             ;;
         *)
             EXPANDED_ARGS+=("$arg")

@@ -11,7 +11,7 @@ def main():
         GAIN = 4.87
         READ_NOISE = 4.6225
         
-        subprocess.run(["./run.sh", f"--sky={SKY}", f"--gain={GAIN}", f"readnoise={READ_NOISE}", "-s"])
+        subprocess.run(["./run.sh", f"--sky={SKY}", f"--gain={GAIN}", f"readnoise={READ_NOISE}", "-s", "-m"])
 
 if __name__ == "__main__":
     main()
