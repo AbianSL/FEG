@@ -1,5 +1,9 @@
 from astropy.io import fits
 import subprocess
+import matplotlib.pyplot as plt
+
+def show_table(data) -> None:
+    pass
 
 def main():
     DEFAULT_FILE = "source/NGC0237_i.fits"
@@ -13,7 +17,9 @@ def main():
         FWGN_I = 0,8316
         BETA_I = 3.8
         
-        subprocess.run(["./run.sh", f"--sky={SKY}", f"--gain={GAIN}", f"readnoise={READ_NOISE}", "-s", "-m", "-p"])
+        print(header.keys)
+
+        # subprocess.run(["./run.sh", f"--sky={SKY}", f"--gain={GAIN}", f"readnoise={READ_NOISE}", "-s", "-m", "-p"])
 
 if __name__ == "__main__":
     main()
