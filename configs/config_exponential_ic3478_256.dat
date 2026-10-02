@@ -5,17 +5,18 @@
 X0   190.0    175,225
 Y0   150.0    140,170
 
-function exponential
-pa    18.0    0,180
-ell    0.2    0,1
-i_0    100    0,500
-h      25     0,100
+FUNCTION Exponential
+PA        18.0     0,180
+ell        0.2     0,0.95
+I_0      100.0     0,500
+h         25.0     0.1,100
 
 # Para ajustar otro sersic hago otra función.
 # Se puede poner dos centros diferentes para cada función. pero se pone por fuera como una variable global
 
-function sersic 
-pa    18.0    0,180
-ell    0.2    0,1
-i_0    100    0,500
-h      25     0,100
+FUNCTION Sersic
+PA      19.0449
+ell     0.221656
+n        2.3108
+I_e     22.1351
+r_e     56.2217

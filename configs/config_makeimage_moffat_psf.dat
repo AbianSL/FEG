@@ -8,7 +8,7 @@ NROWS  51
 # Circular Moffat
 X0    26.0
 Y0    26.0
-FUNCTION   Moffat
+FUNCTION Moffat
 PA		0.0
 ell		0.0
 I_0		1.0

@@ -3,6 +3,7 @@ set -euo pipefail
 
 DEFAULT_IMAGE="source/NGC0237_i.fits"
 DEFAULT_CONFIG="configs/config_exponential_ic3478_256.dat"
+DEFAULT_PSF="configs/config_makeimage_moffat_psf.dat"
 DEFAULT_MODEL="model.fits"
 DEFAULT_RESIDUAL="resid.fits"
 # DEFAULT_MASK="mask.fits"
@@ -19,6 +20,9 @@ for arg in "$@"; do
     case "$arg" in
         --save | -s)
             EXPANDED_ARGS+=(--save-model "$DEFAULT_MODEL" --save-residual "$DEFAULT_RESIDUAL")
+            ;;
+        --psd | -p)
+            EXPANDED_ARGS+=(--psf "$DEFAULT_PSF")
             ;;
         *)
             EXPANDED_ARGS+=("$arg")
