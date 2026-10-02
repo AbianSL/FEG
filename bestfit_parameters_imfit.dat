@@ -1,5 +1,5 @@
 # Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
-# Generated on Fri Oct  2 11:08:38 2026 by the following command:
+# Generated on Fri Oct  2 11:17:29 2026 by the following command:
 #    imfit source/NGC0237_i.fits -c configs/config_exponential_ic3478_256.dat --sky=130.15 --save-model model.fits --save-residual resid.fits
 
 # Results of fit:
