@@ -1,25 +1,25 @@
 # Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
-# Generated on Fri Oct  2 11:17:29 2026 by the following command:
-#    imfit source/NGC0237_i.fits -c configs/config_exponential_ic3478_256.dat --sky=130.15 --save-model model.fits --save-residual resid.fits
+# Generated on Fri Oct  2 11:49:12 2026 by the following command:
+#    imfit source/NGC0237_i.fits -c configs/config_exponential_ic3478_256.dat --sky=264.45304 --gain=4.87 readnoise=4.6225 --save-model model.fits --save-residual resid.fits
 
 # Results of fit:
 #   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
 #   Fit statistic: chi-squared (data-based errors)
-#   Best-fit value: 223274.833255
-#   Reduced value: 1.734712
-#   AIC: 223296.835306
-#   BIC: 223404.252683
+#   Best-fit value: 866034.449015
+#   Reduced value: 6.728572
+#   AIC: 866056.451066
+#   BIC: 866163.868443
 
-X0		191.1405 # +/- 0.0183
-Y0		156.5156 # +/- 0.0131
+X0		191.1639 # +/- 0.0090
+Y0		156.4914 # +/- 0.0067
 FUNCTION Exponential
-PA		82.3308 # +/- 0.17977	deg (CCW from +y axis)
-ell		0.47738 # +/- 0.0024774
+PA		82.7026 # +/- 0.098306	deg (CCW from +y axis)
+ell		0.48244 # +/- 0.0013912
 I_0		    500 # +/- 0	counts/pixel
-h		24.9317 # +/- 0.069763	pixels
+h		25.5382 # +/- 0.039394	pixels
 FUNCTION Sersic
-PA		39.0028 # +/- 0.3911	deg (CCW from +y axis)
-ell		-0.707237 # +/- 0.013043
-n		2.60327 # +/- 0.02367
-I_e		 42.845 # +/- 0.98254	counts/pixel
-r_e		20.4604 # +/- 0.35578	pixels
+PA		40.7791 # +/- 0.19494	deg (CCW from +y axis)
+ell		-0.752005 # +/- 0.0070149
+n		2.50381 # +/- 0.013391
+I_e		48.0043 # +/- 0.67973	counts/pixel
+r_e		18.6256 # +/- 0.19879	pixels
