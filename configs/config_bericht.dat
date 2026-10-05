@@ -1,0 +1,13 @@
+X0 191.1222
+Y0 156.4010
+FUNCTION Sersic
+PA 136.69
+ell 0.5532
+n 1.539
+I_e 215.3
+r_e 9.91
+FUNCTION Exponential
+PA 87.740
+ell 0.4002
+I_0 658.1
+h 23.483

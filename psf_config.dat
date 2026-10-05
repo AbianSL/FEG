@@ -1,0 +1,8 @@
+X0 26
+Y0 26
+FUNCTION Moffat
+PA 0
+ell 0
+I_0 1
+fwhm 2.1
+beta 3.8

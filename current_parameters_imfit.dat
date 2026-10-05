@@ -1,0 +1,19 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Fri Oct  2 11:08:00 2026 by the following command:
+#    imfit source/NGC0237_i.fits -c configs/config_exponential_ic3478_256.dat --sky=130.14 --save-model=model.fits
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 100 -- Terminated: User interrupt
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 843791.838660
+#   Reduced value: 6.555505
+#   AIC: 843803.839312
+#   BIC: 843862.431075
+
+X0		135.0000 # +/- 0.0031
+Y0		135.0000 # +/- 0.0031
+FUNCTION Exponential
+PA		3.24845 # +/- 8.3404e+05	deg (CCW from +y axis)
+ell		      0 # +/- 0
+I_0		86.6263 # +/- 0.41926	counts/pixel
+h		42.3362 # +/- 0.165	pixels
