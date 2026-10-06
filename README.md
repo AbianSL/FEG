@@ -29,6 +29,8 @@ The main dependencies of the program are the next ones:
 
 - astropy
 
-- 
+- numpy
+
+- photolib
 
 # Structure
