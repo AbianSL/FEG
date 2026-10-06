@@ -23,8 +23,11 @@ uv sync
 The main dependencies of the program are the next ones:
 
 - Python 3.10 or greater
+  
 - matplotlib
+
 - astropy
+
 - 
 
 # Structure
